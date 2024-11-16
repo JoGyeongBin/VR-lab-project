@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7C8A8622CD1F188000D0786 /* VR_lab_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8A8612CD1F188000D0786 /* VR_lab_projectApp.swift */; };
+		C7C8A8642CD1F188000D0786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8A8632CD1F188000D0786 /* ContentView.swift */; };
+		C7C8A8662CD1F188000D0786 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8A8652CD1F188000D0786 /* Item.swift */; };
+		C7C8A8682CD1F19B000D0786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C8A8672CD1F19B000D0786 /* Assets.xcassets */; };
+		C7C8A86C2CD1F19B000D0786 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C8A86B2CD1F19B000D0786 /* Preview Assets.xcassets */; };
+		C7C8A8762CD1F19D000D0786 /* VR_lab_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8A8752CD1F19D000D0786 /* VR_lab_projectTests.swift */; };
+		C7C8A8802CD1F19D000D0786 /* VR_lab_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8A87F2CD1F19D000D0786 /* VR_lab_projectUITests.swift */; };
+		C7C8A8822CD1F19D000D0786 /* VR_lab_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8A8812CD1F19D000D0786 /* VR_lab_projectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7C8A8722CD1F19D000D0786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C8A8562CD1F187000D0786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C8A85D2CD1F188000D0786;
+			remoteInfo = "VR lab project";
+		};
+		C7C8A87C2CD1F19D000D0786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C8A8562CD1F187000D0786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C8A85D2CD1F188000D0786;
+			remoteInfo = "VR lab project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7C8A85E2CD1F188000D0786 /* VR lab project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VR lab project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C8A8612CD1F188000D0786 /* VR_lab_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VR_lab_projectApp.swift; sourceTree = "<group>"; };
+		C7C8A8632CD1F188000D0786 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7C8A8652CD1F188000D0786 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C7C8A8672CD1F19B000D0786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7C8A8692CD1F19B000D0786 /* VR_lab_project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VR_lab_project.entitlements; sourceTree = "<group>"; };
+		C7C8A86B2CD1F19B000D0786 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7C8A8712CD1F19D000D0786 /* VR lab projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VR lab projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C8A8752CD1F19D000D0786 /* VR_lab_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VR_lab_projectTests.swift; sourceTree = "<group>"; };
+		C7C8A87B2CD1F19D000D0786 /* VR lab projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VR lab projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C8A87F2CD1F19D000D0786 /* VR_lab_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VR_lab_projectUITests.swift; sourceTree = "<group>"; };
+		C7C8A8812CD1F19D000D0786 /* VR_lab_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VR_lab_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7C8A85B2CD1F188000D0786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C8A86E2CD1F19D000D0786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C8A8782CD1F19D000D0786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7C8A8552CD1F187000D0786 = {
+			isa = PBXGroup;
+			children = (
+				C7C8A8602CD1F188000D0786 /* VR lab project */,
+				C7C8A8742CD1F19D000D0786 /* VR lab projectTests */,
+				C7C8A87E2CD1F19D000D0786 /* VR lab projectUITests */,
+				C7C8A85F2CD1F188000D0786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7C8A85F2CD1F188000D0786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8A85E2CD1F188000D0786 /* VR lab project.app */,
+				C7C8A8712CD1F19D000D0786 /* VR lab projectTests.xctest */,
+				C7C8A87B2CD1F19D000D0786 /* VR lab projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C8A8602CD1F188000D0786 /* VR lab project */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8A8612CD1F188000D0786 /* VR_lab_projectApp.swift */,
+				C7C8A8632CD1F188000D0786 /* ContentView.swift */,
+				C7C8A8652CD1F188000D0786 /* Item.swift */,
+				C7C8A8672CD1F19B000D0786 /* Assets.xcassets */,
+				C7C8A8692CD1F19B000D0786 /* VR_lab_project.entitlements */,
+				C7C8A86A2CD1F19B000D0786 /* Preview Content */,
+			);
+			path = "VR lab project";
+			sourceTree = "<group>";
+		};
+		C7C8A86A2CD1F19B000D0786 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8A86B2CD1F19B000D0786 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7C8A8742CD1F19D000D0786 /* VR lab projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8A8752CD1F19D000D0786 /* VR_lab_projectTests.swift */,
+			);
+			path = "VR lab projectTests";
+			sourceTree = "<group>";
+		};
+		C7C8A87E2CD1F19D000D0786 /* VR lab projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C8A87F2CD1F19D000D0786 /* VR_lab_projectUITests.swift */,
+				C7C8A8812CD1F19D000D0786 /* VR_lab_projectUITestsLaunchTests.swift */,
+			);
+			path = "VR lab projectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7C8A85D2CD1F188000D0786 /* VR lab project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C8A8852CD1F19D000D0786 /* Build configuration list for PBXNativeTarget "VR lab project" */;
+			buildPhases = (
+				C7C8A85A2CD1F188000D0786 /* Sources */,
+				C7C8A85B2CD1F188000D0786 /* Frameworks */,
+				C7C8A85C2CD1F188000D0786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VR lab project";
+			productName = "VR lab project";
+			productReference = C7C8A85E2CD1F188000D0786 /* VR lab project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7C8A8702CD1F19D000D0786 /* VR lab projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C8A8882CD1F19D000D0786 /* Build configuration list for PBXNativeTarget "VR lab projectTests" */;
+			buildPhases = (
+				C7C8A86D2CD1F19D000D0786 /* Sources */,
+				C7C8A86E2CD1F19D000D0786 /* Frameworks */,
+				C7C8A86F2CD1F19D000D0786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C8A8732CD1F19D000D0786 /* PBXTargetDependency */,
+			);
+			name = "VR lab projectTests";
+			productName = "VR lab projectTests";
+			productReference = C7C8A8712CD1F19D000D0786 /* VR lab projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7C8A87A2CD1F19D000D0786 /* VR lab projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C8A88B2CD1F19D000D0786 /* Build configuration list for PBXNativeTarget "VR lab projectUITests" */;
+			buildPhases = (
+				C7C8A8772CD1F19D000D0786 /* Sources */,
+				C7C8A8782CD1F19D000D0786 /* Frameworks */,
+				C7C8A8792CD1F19D000D0786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C8A87D2CD1F19D000D0786 /* PBXTargetDependency */,
+			);
+			name = "VR lab projectUITests";
+			productName = "VR lab projectUITests";
+			productReference = C7C8A87B2CD1F19D000D0786 /* VR lab projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C8A8562CD1F187000D0786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C7C8A85D2CD1F188000D0786 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C7C8A8702CD1F19D000D0786 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C7C8A85D2CD1F188000D0786;
+					};
+					C7C8A87A2CD1F19D000D0786 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C7C8A85D2CD1F188000D0786;
+					};
+				};
+			};
+			buildConfigurationList = C7C8A8592CD1F187000D0786 /* Build configuration list for PBXProject "VR lab project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7C8A8552CD1F187000D0786;
+			productRefGroup = C7C8A85F2CD1F188000D0786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C8A85D2CD1F188000D0786 /* VR lab project */,
+				C7C8A8702CD1F19D000D0786 /* VR lab projectTests */,
+				C7C8A87A2CD1F19D000D0786 /* VR lab projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7C8A85C2CD1F188000D0786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C8A86C2CD1F19B000D0786 /* Preview Assets.xcassets in Resources */,
+				C7C8A8682CD1F19B000D0786 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C8A86F2CD1F19D000D0786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C8A8792CD1F19D000D0786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7C8A85A2CD1F188000D0786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C8A8642CD1F188000D0786 /* ContentView.swift in Sources */,
+				C7C8A8662CD1F188000D0786 /* Item.swift in Sources */,
+				C7C8A8622CD1F188000D0786 /* VR_lab_projectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C8A86D2CD1F19D000D0786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C8A8762CD1F19D000D0786 /* VR_lab_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C8A8772CD1F19D000D0786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C8A8822CD1F19D000D0786 /* VR_lab_projectUITestsLaunchTests.swift in Sources */,
+				C7C8A8802CD1F19D000D0786 /* VR_lab_projectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7C8A8732CD1F19D000D0786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C8A85D2CD1F188000D0786 /* VR lab project */;
+			targetProxy = C7C8A8722CD1F19D000D0786 /* PBXContainerItemProxy */;
+		};
+		C7C8A87D2CD1F19D000D0786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C8A85D2CD1F188000D0786 /* VR lab project */;
+			targetProxy = C7C8A87C2CD1F19D000D0786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7C8A8832CD1F19D000D0786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7C8A8842CD1F19D000D0786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C7C8A8862CD1F19D000D0786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "VR lab project/VR_lab_project.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VR lab project/Preview Content\"";
+				DEVELOPMENT_TEAM = LA5N8LJZH2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.vr-lab-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C7C8A8872CD1F19D000D0786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "VR lab project/VR_lab_project.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VR lab project/Preview Content\"";
+				DEVELOPMENT_TEAM = LA5N8LJZH2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.vr-lab-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C7C8A8892CD1F19D000D0786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA5N8LJZH2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-01903336.VR-lab-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VR lab project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VR lab project";
+			};
+			name = Debug;
+		};
+		C7C8A88A2CD1F19D000D0786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA5N8LJZH2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-01903336.VR-lab-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VR lab project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VR lab project";
+			};
+			name = Release;
+		};
+		C7C8A88C2CD1F19D000D0786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA5N8LJZH2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-01903336.VR-lab-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VR lab project";
+			};
+			name = Debug;
+		};
+		C7C8A88D2CD1F19D000D0786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LA5N8LJZH2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-01903336.VR-lab-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VR lab project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7C8A8592CD1F187000D0786 /* Build configuration list for PBXProject "VR lab project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C8A8832CD1F19D000D0786 /* Debug */,
+				C7C8A8842CD1F19D000D0786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C8A8852CD1F19D000D0786 /* Build configuration list for PBXNativeTarget "VR lab project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C8A8862CD1F19D000D0786 /* Debug */,
+				C7C8A8872CD1F19D000D0786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C8A8882CD1F19D000D0786 /* Build configuration list for PBXNativeTarget "VR lab projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C8A8892CD1F19D000D0786 /* Debug */,
+				C7C8A88A2CD1F19D000D0786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C8A88B2CD1F19D000D0786 /* Build configuration list for PBXNativeTarget "VR lab projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C8A88C2CD1F19D000D0786 /* Debug */,
+				C7C8A88D2CD1F19D000D0786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7C8A8562CD1F187000D0786 /* Project object */;
+}
